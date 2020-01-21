@@ -1,46 +1,41 @@
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <script src="js/jquery.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+<div class="container-fluid animatedParent" style="background:#D8F9FA; padding:40px;">
+    <div class="container">
 
-    <div class="container-fluid animatedParent" style="background:#F8F9FA; padding:40px;">
-        <div class="container">
-
-            <div class="row animated fadeIn">
+        <div class="row animated fadeIn">
 
 
-                <div class="col-sm-4" style=" border-right:1px solid black;">
-                    <ul>
-                        <li>
-                            <h5>ADMIN SECTION</h5>
-                        </li>
-                        <li><a href="admin.php">Admin Login</a></li>
+            <div class="col-sm-4" style=" border-right:1px solid black;">
+                <ul>
+                    <li>
+                        <h5>ADMIN SECTION</h5>
+                    </li>
+                    <li><a href="../admin.php">Admin Login</a></li>
 
-                    </ul>
-                </div>
+                </ul>
+            </div>
 
-                <div class="col-sm-4" style=" border-right:1px solid black;">
-                    <ul>
-                        <li>
-                            <h5>HOTEL LINKS</h5>
-                        </li>
-                        <li><a href="vendor-new.php">Register On የእናት ጓዳ</a></li>
-                        <li><a href="vendor_login.php">Hotel Account Login</a></li>
-                        <li><a href="food.php">Add Foods</a></li>
+            <div class="col-sm-4" style=" border-right:1px solid black;">
+                <ul>
+                    <li>
+                        <h5>HOTEL LINKS</h5>
+                    </li>
 
-                    </ul>
-                </div>
-                <div class="col-sm-4" style=" border-right:1px solid black;">
-                    <ul>
-                        <li>
-                            <h5>Delivery SECTION</h5>
-                        </li>
-                        <li><a href="admin.php">Delivery Login</a></li>
+                    <li><a href="../vendor_login.php">Hotel Account Login</a></li>
 
-                    </ul>
-                </div>
+
+                </ul>
+            </div>
+            <div class="col-sm-4" style=" border-right:1px solid black;">
+                <ul>
+                    <li>
+                        <h5>DELIVERY SECTION</h5>
+                    </li>
+                    <li><a href="../delivery.php">DELIVERY LOGIN </li>
+                    </li>
+
+                </ul>
             </div>
         </div>
-
     </div>
+
+</div>
